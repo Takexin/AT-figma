@@ -1,6 +1,12 @@
 .image{
   width: 100%;
 }
+.esquerda{
+  text-align:left;
+}
+.direita{
+  text-align:right;
+}
 
 #energia{
   position: absolute;
