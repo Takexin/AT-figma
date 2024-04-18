@@ -1,22 +1,45 @@
 .image{
   width: 100%;
 }
-.esquerda{
-  text-align:left;
+.titulo{
+  font-size: 20px;
+  font-family: "Kodchasan";
+  color: gray;
+  font-weight: 200;
 }
-.direita{
-  text-align:right;
+.subtitulo{
+  width: 100%;
+  max-width: 50%;
+  font-size: 70%;
+  font-family: "Kodchasan";
+  
+  color: gray;
+}
+
+#sub2{
+  position: absolute;
+  left: 60%;
+}
+#titulo2{
+  
+  left: 50%;
 }
 
 #energia{
   position: absolute;
-  top: 60%;
+  top: 40%;
   width: 100%;
   text-align: center;
   font-size: 65px;
   color: white;
 }
-
+.texto {
+  display: inline-block;
+}
+footer{
+  display: flex;
+  
+}
 
 
 .kodchasan-extralight {
