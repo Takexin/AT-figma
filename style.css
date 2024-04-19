@@ -1,28 +1,36 @@
 .image{
   width: 100%;
 }
+#logo{
+  width: 90%;
+}
 .titulo{
   font-size: 20px;
   font-family: "Kodchasan";
   color: gray;
   font-weight: 200;
+  max-width: 300px;
+  position: absolute;
+  left: 5px;
+  text-align: justify;
 }
 .subtitulo{
   width: 100%;
   max-width: 50%;
   font-size: 70%;
   font-family: "Kodchasan";
-  
+  position: absolute;
+  top: 110%;
   color: gray;
 }
 
 #sub2{
   position: absolute;
-  left: 60%;
+  right: -170px;
 }
 #titulo2{
   
-  left: 50%;
+  left: 80%;
 }
 
 #energia{
