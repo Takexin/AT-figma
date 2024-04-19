@@ -24,13 +24,9 @@
   color: gray;
 }
 
-#sub2{
-  position: absolute;
-  right: -170px;
-}
+
 #titulo2{
-  
-  left: 80%;
+  width: 175px;
 }
 
 #energia{
@@ -41,8 +37,18 @@
   font-size: 65px;
   color: white;
 }
+#lep{
+  position: absolute;
+  top: 45%;
+  color: white;
+   text-align: center;
+}
 .texto {
   display: inline-block;
+}
+#texto2{
+  position: absolute;
+  left: 85%;
 }
 footer{
   display: flex;
@@ -120,4 +126,11 @@ footer{
   font-family: "Kodchasan", sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+
+.subtitulo1{
+  color: gray;
+  display: flex;
+  left: 0px;
+  margin-top: 45px;
 }
