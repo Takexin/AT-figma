@@ -1,8 +1,45 @@
 .image{
-  width: 100%;
+  width: 100%; 
+}
+#energia_imagem{
+  filter: brightness(.7)
+}
+main{
+  position: relative;
 }
 #logo{
   width: 90%;
+}
+.caixa_container{
+  display: flex;
+}
+.caixa{
+  border: solid;
+  border-width: 5px;
+  width: 100px;
+  border-color:rgba(208, 247, 240, 1);
+  background-color: rgba(208, 247, 240, 1);
+  color: gray;
+  font-family: "Kodchasan";
+  font-size: 15px;
+  text-align: center;
+}
+#caixa1{
+  position: absolute;
+  margin-top: 10%;
+}
+#caixa2{
+  width: 20%;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 78%;
+}
+#caixa3{
+  width: 20%;
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 60%;
+  
 }
 .titulo{
   font-size: 20px;
@@ -20,28 +57,40 @@
   font-size: 70%;
   font-family: "Kodchasan";
   position: absolute;
-  top: 110%;
+  margin-top: 5%;
   color: gray;
+  
 }
-
-
+.subtitulo1{
+  color: gray;
+  display: flex;
+  margin-top: 35%;
+  font-size: 70%;
+  font-family: "Kodchasan";
+  
+  
+}
 #titulo2{
   width: 175px;
+  left: -40%;
 }
-
 #energia{
   position: absolute;
-  top: 40%;
-  width: 100%;
-  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
   font-size: 65px;
   color: white;
+  text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
 }
 #lep{
   position: absolute;
-  top: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
   color: white;
-   text-align: center;
+  text-align: center;
+  text-shadow: -0.5px 0 pink, 0 0.5px pink, 0.5px 0 pink, 0 -0.5px pink;
 }
 .texto {
   display: inline-block;
@@ -128,9 +177,3 @@ footer{
   font-style: italic;
 }
 
-.subtitulo1{
-  color: gray;
-  display: flex;
-  left: 0px;
-  margin-top: 45px;
-}
